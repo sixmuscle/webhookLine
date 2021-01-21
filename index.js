@@ -31,7 +31,7 @@ app.post('/webhook', line.middleware(config), (req, res) => {
       res.status(500).end();
     });
 });
-
+// 
 // simple reply function
 const replyText = (token, message) => {
   console.log('--------------');
